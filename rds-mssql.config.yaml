@@ -26,4 +26,5 @@ publicly_accessible: false
 storage_encrypted: True
 #kms_key_id: arn:aws:kms:ap-southeast-2:111111111111:key/12345678-1234-1234-1234-111111111111
 
-#native_backup_restore: False
+#Set to true to enable the mssql option to backup/restore from a database bucket
+#native_backup_restore: false
