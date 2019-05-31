@@ -16,5 +16,6 @@ CfhighlanderTemplate do
       ComponentParam 'RDSAllocatedStorage'
       ComponentParam 'DnsDomain'
       ComponentParam 'SubnetIds', type: 'CommaDelimitedList'
+      ComponentParam 'DatabaseBucket'
     end
 end
