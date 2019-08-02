@@ -1,6 +1,6 @@
 test_metadata:
   type: config
-  name: sqlserver-web
+  name: sqlserver-collation
   description: Test a specified character set
 
 engine: 'sqlserver-web'
