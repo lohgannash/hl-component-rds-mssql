@@ -17,6 +17,9 @@ master_login:
 
 publicly_accessible: false
 
+# Specify a specific collation for the mssql server. Default is SQL_Latin1_General_CP1_CI_AS
+# character_set: SQL_Latin1_General_CP1_CI_A
+
 # You are able to specify ips and security groups to be added to the rule.
 # security_group_rules:
 #   - ip: 0.0.0.0/0

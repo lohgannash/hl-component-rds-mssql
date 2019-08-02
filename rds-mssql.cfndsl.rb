@@ -127,6 +127,7 @@ CloudFormation do
     MultiAZ Ref('MultiAZ')
     PubliclyAccessible publicly_accessible if defined? publicly_accessible
     OptionGroupName Ref('OptionGroupRDS') if defined? native_backup_restore
+    CharacterSetName character_set if defined? character_set
     Tags  tags + [
       { Key: 'Name', Value: FnJoin('-', [ Ref(:EnvironmentName), component_name, 'instance' ])},
       { Key: 'SnapshotID', Value: Ref('RDSSnapshotID')},
