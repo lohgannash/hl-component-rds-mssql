@@ -7,3 +7,5 @@ test_metadata:
 engine: 'sqlserver-web'
 engine_version: '14.00.3049.1.v1'
 family: sqlserver-web-14.0
+
+storage_encrypted: true

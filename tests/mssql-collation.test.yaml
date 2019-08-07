@@ -9,3 +9,4 @@ engine_version: '13.00.5216.0.v1'
 
 character_set: 'Latin1_General_CI_AS'
 
+storage_encrypted: true

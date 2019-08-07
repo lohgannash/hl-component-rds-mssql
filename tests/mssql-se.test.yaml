@@ -3,8 +3,6 @@ test_metadata:
   name: sqlserver-se
   description: Create RDS mssql se
 
-
-
 # CLI to query engine and family: aws rds describe-db-engine-versions
 engine: 'sqlserver-se'
 engine_version: '14.00.3049.1.v1'
