@@ -30,6 +30,6 @@ publicly_accessible: false
 storage_encrypted: false
 #kms_key_id: arn:aws:kms:ap-southeast-2:111111111111:key/12345678-1234-1234-1234-111111111111
 
-#Set to true to enable the mssql option to backup/restore from a database bucket
+#Set to true to enable the mssql option to backup/restore from backup files in an S3 bucket
 #Pass the bucket name to the component with the DatabaseBucket parameter
 #native_backup_restore: false
