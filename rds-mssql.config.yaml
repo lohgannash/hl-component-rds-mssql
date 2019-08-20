@@ -35,4 +35,8 @@ storage_encrypted: false
 #native_backup_restore: false
 
 #Sometimes required to be specified for configurations with options enabled
+<<<<<<< HEAD
 #license_model: license-included | bring-your-own-license | general-public-license
+=======
+#license_model: license-included | bring-your-own-license | general-public-license
+>>>>>>> Remove conflict
